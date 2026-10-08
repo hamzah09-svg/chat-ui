@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSU CHAT UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- LEFT SIDE: sidebar -->
+      <aside class="sidebar">
+        <h1>DSU CHAT UI</h1>
+
+        <div class="sidebar-top">
+          <button class="new-chat-btn">
+            <img src="images/plus-icon.png" alt="plus icon" />
+            <span>NEW CHAT</span>
+          </button>
+          <img
+            src="images/search-icon.png"
+            alt="search icon"
+            class="search-icon"
+          />
+        </div>
+
+        <hr />
+
+        <div class="chat-history">
+          <!-- "active" class = the chat that is currently selected -->
+          <div class="chat-item active">
+            <img src="images/message-icon.png" alt="message" />
+            <span>Create HTML Environment . . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>Create CSS Environment . . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>Help Me Do my work. . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>Help Me Create an image. . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>Create a workout Routine. . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>teach me video creation. . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>How To get Better at coding. . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>Create a modified version. . . .</span>
+          </div>
+          <div class="chat-item">
+            <img src="images/message-icon.png" alt="message" />
+            <span>help me in coding. . . .</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT SIDE: chat area -->
+      <section class="chat-container">
+        <div class="message">
+          <div class="user-message">
+            <img src="images/avatar.png" alt="user" />
+            <span>How To Become A Frontend Developer</span>
+          </div>
+
+          <div class="ai-message">
+            <p>Here's A Summary Roadmap To Become A Frontend Developer</p>
+            <ol>
+              <li>
+                HTML: Learn page structure, semantic tags, forms, and
+                accessibility basics.
+              </li>
+              <li>
+                CSS: Master styling, Flexbox, Grid, and responsive design.
+              </li>
+              <li>
+                Browser DevTools: Practice inspecting elements and debugging
+                layouts.
+              </li>
+              <li>
+                JavaScript (ES6+): Learn variables, arrays, functions,
+                async/await, and the DOM.
+              </li>
+              <li>
+                APIs &amp; Fetching: Learn to get data from servers using the
+                Fetch API.
+              </li>
+              <li>
+                Version Control: Learn Git and GitHub to track and share your
+                code.
+              </li>
+              <li>TypeScript: Add static typing to catch bugs early.</li>
+              <li>
+                Frontend Framework: Pick one, such as React, Vue, or Angular.
+              </li>
+              <li>
+                Styling Tools: Learn utility frameworks like Tailwind CSS.
+              </li>
+              <li>Build Tools: Use npm or pnpm and tools like Vite.</li>
+              <li>Testing: Write basic tests with Jest or Vitest.</li>
+              <li>Deployment: Use Vercel, Netlify, or GitHub Pages.</li>
+              <li>
+                Portfolio: Build and host 3 to 4 projects with clean README
+                files.
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <input type="text" placeholder="Ask Anything To Me...." />
+          <button aria-label="Send message">
+            <img src="images/send-icon.png" alt="send" />
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
